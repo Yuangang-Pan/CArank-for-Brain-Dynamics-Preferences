@@ -1,1 +1,1 @@
-# CArank-for-Brain-Dynamics-Preferences
+# CArank for Brain Dynamics Preferences
