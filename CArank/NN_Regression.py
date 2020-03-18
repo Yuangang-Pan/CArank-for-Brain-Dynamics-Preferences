@@ -15,10 +15,6 @@ import torch.optim as optim
 import matplotlib.pyplot as plt
 import scipy.io
 import os
-SEED = 194910
-np.random.seed(SEED)
-torch.manual_seed(SEED)
-torch.cuda.manual_seed_all(SEED)
 torch.backends.cudnn.deterministic = True
 os. environ['CUDA_VISIBLE_DEVICES'] = '1'
 flag_cuda = torch.cuda.is_available()
